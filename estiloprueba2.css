@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+*{
+    font-family:'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+
+body{
+    background-color: #E9B322;
+}
+
+h1, h2{
+    color: white;
+    background-color: #212529;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 600;
+}
+h3{
+    color: #212529;
+    margin-top: 50px;
+}
+
+footer{
+    background-color:#212529;
+    padding: 10px;
+    /* position: absolute; */
+}
+
+.circulo{
+    background-color: #212529;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    /* padding: 20px; */
+    margin: 20px;
+    position: relative;
+    
+}
+.materias{
+    
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    /* text-align: center; */
+    position: absolute;
+    margin-left: 18px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.materia1:hover::after{
+    content: "Metodologías de trabajo";
+    color: #212529;
+    margin-left: 60px;
+    width: 100%
+
+}
+.inline-block{
+    display: inline-block;
+}
+
+.binario{
+    background-color: lawngreen;
+    height: 100%;
+    background-size: cover;
+}
+
+.todo{
+    margin-: auto;
+}

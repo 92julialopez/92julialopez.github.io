@@ -10,6 +10,10 @@ header{
     padding: 50px 20px;
 }
 
+div{
+    width: 70%;
+}
+
 section{
     padding-left: 20px;
 }

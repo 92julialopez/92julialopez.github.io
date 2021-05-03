@@ -3,6 +3,8 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+
 .div-pic{
     background-image: url("../img/fotoCV.png");
     height: 180px;
@@ -104,6 +106,5 @@ dt{
 /* footer{
     background-color:#FAD1CE;
     height: 30px;
-    bottom: 0%;
-    position: absolute;
+    
 } */

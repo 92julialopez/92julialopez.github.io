@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --color-principal: #00669F;
+    --color-secundario: #1CD1B0;
+    --color-claro: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+aside{
+    background-color: var(--color-secundario);
+    padding-left: 1.5rem;
+}
+aside>p{
+    font-size: 2.3rem;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 3.2rem;
+}
+
+header{
+    background-color: var(--color-principal);
+    padding: 1.7rem;
+    color: var(--color-claro);
+    margin-bottom: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 40%;
+}
+
+.card{
+    margin-bottom: 8rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.card__header{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+}
+
+.card__header--batman{
+    background-image: url("../img/bg-batman.jpg");
+}
+.card__header--superman{
+    background-image: url('../img/bg-superman.jpg');
+}
+.card__header--wonder{
+    background-image: url('../img/bg-wonderw.jpg');
+}
+
+.heart{
+    color:#CC2424;
+    z-index: 10;
+    font-size: 3.2rem;
+    position: absolute;
+    top: 2.2rem;
+    left: 2.2rem;
+}
+
+.card__perfil{
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    background-position: center center;
+    background-size:cover;
+    margin: auto;
+    top: 230px;
+    position: relative;
+}
+
+.card_perfil_batman{
+    background-image: url("../img/batman.jpg");
+}
+
+.card__perfil--wonder{
+    background-image: url("../img/wonderw.jpg");
+}
+
+.card__perfil--superman{
+    background-image: url("../img/superman.jpg");
+}
+
+.card__body{
+    background-color: #F3F3F3;
+    padding: 150px 35px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+div>p{
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+button{
+    color: white;
+    background-color: var(--color-principal);
+    padding: 1.5rem 4.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+    border: transparent;
+}
+
+.signo-mas{
+    position: fixed;
+    font-size: 6rem;
+    bottom: 3%;
+    right: 3%;
+    color: var(--color-principal);
+}

@@ -3,6 +3,7 @@
 *{
     font-family:'Montserrat', sans-serif;
     margin: 0px;
+    box-sizing: border-box;
 }
 header{
     background-color: #161819;
@@ -10,7 +11,7 @@ header{
     color: white;
     padding: 30px;
     margin-bottom: 100px;
-    width: 100%;
+    /* width: 100vw; */
 }
 
 h1{
@@ -26,12 +27,17 @@ h2{
 .button{
     border: #161819 solid 3px;
     border-radius: 5px;
-    width: 400px;
+    width: 300px;
     margin: auto;
     margin-bottom: 20px;
     padding: 5px;
     text-align: center;
+    
+}
+
+div>a{
     color: #161819;
+    text-decoration: none;
 }
 
 footer{
